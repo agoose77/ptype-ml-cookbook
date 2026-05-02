@@ -6,6 +6,3 @@ on:
 jobs:
   build:
     uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@feat/clinder
-  preview:
-    needs: build
-    uses: ProjectPythia/cookbook-actions/.github/workflows/preview-comment.yaml@feat/clinder
